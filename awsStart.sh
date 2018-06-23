@@ -1,5 +1,4 @@
 #!/bin/bash
-#screen -S mochimoMiner
 
 git clone https://github.com/JoeY34kaze/mochimo
 chmod -R a+rwx mochimo
