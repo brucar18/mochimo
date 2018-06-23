@@ -2,7 +2,7 @@
 
 git clone https://github.com/JoeY34kaze/mochimo
 chmod -R a+rwx mochimo
-#cd mochimo/mochi-beta/bin/
+cd mochimo/mochi-beta/bin/
 
 #while true
 #do
