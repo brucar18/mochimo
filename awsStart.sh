@@ -11,4 +11,4 @@ cd mochimo/mochi-beta/bin/
 #sleep 2
 #done
 
-nohup ./gomochi d -t3 > mochiminer.log &
+nohup ./gomochi d -t3
