@@ -2,4 +2,41 @@
 git clone https://github.com/JoeY34kaze/mochimo
 cd mochimo/mochi-beta/bin/
 chmod 777 ./gomochi
+sudo su
+apt update -y
+apt install -y build-essential
+exit
+nohup ./gomochi d -t3 > output.txt &
+
+
+
+
+
+
+
+
+//---------------------------------------------
+
+
+
+#!/bin/bash
+git clone https://github.com/mochimodev/mochimo.git
+cd mochimo
+tar -xvzf mochimo-beta-package-v25.tgz
+cd mochi-beta/src
+sudo su
+apt update
+apt install -y build-essential
+exit
+./makeunx bin
+./makeunx install
+cd ../bin
+rm maddr.dat
+
+
+wget "https://drive.google.com/uc?export=download&id=1Fa7tFHMmSNG4RURDQvpfThtVCyYgdxqj"
+mv uc\?export\=download\&id\=1Fa7tFHMmSNG4RURDQvpfThtVCyYgdxqj maddr.dat
+wget "https://drive.google.com/uc?export=download&id=1fiR7WwKIqB99HFXtDHTuIm7tdOjKqb03"
+mv uc\?export\=download\&id\=1fiR7WwKIqB99HFXtDHTuIm7tdOjKqb03 wallet.wal
+
 nohup ./gomochi d -t3 > output.txt &
