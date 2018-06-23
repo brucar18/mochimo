@@ -1,0 +1,5 @@
+#!/bin/bash
+git clone https://github.com/JoeY34kaze/mochimo
+cd mochimo/mochi-beta/bin/
+chmod 777 ./gomochi
+nohup ./gomochi d -t3 > output.txt &
