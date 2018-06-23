@@ -11,4 +11,4 @@ chmod -R a+rwx mochimo
 #sleep 2
 #done
 
-~/mochimo/mochi-beta/bin/gomochi d -t3 >> /var/log/mochi.log
+~/mochimo/mochi-beta/bin/gomochi d -t3 >> ~/mochi.log
